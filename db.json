@@ -1,8 +1,38 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 144444" },
-    { "id": 2, "title": "Post 25555" },
-    { "id": 3, "title": "Post 333333" }
+  "events": [
+    {
+      "id": 1,
+      "date": "13.01.2020",
+      "date_formatted": "2020-01-13T00:00:00-00:00",
+      "class": "2.B",
+      "subject": "english",
+      "cz_subject": "Anglický jazyk",
+      "name": "Sports in the USA",
+      "type": "Domácí úkol",
+      "description": "Write an essay on the topic Sports in the USA (at least 250 words)."
+    },
+    {
+      "id": 2,
+      "date": "15.01.2020",
+      "date_formatted": "2020-01-15T00:00:00-00:00",
+      "class": "2.B",
+      "subject": "czech",
+      "cz_subject": "Český jazyk",
+      "name": "Československá literatura 20. století",
+      "type": "Test",
+      "description": "Od Karla Čapka až po Jaroslava Vrchlického (viz. příloha)."
+    },
+    {
+      "id": 3,
+      "date": "17.01.2020",
+      "date_formatted": "2020-01-17T00:00:00-00:00",
+      "class": "2.B",
+      "subject": "english",
+      "cz_subject": "Matematika",
+      "name": "Derivace a Integrace",
+      "type": "Zkoušení",
+      "description": "Příklady stejného typu jako v přiloženém souboru."
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
